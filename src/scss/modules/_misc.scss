@@ -1,0 +1,20 @@
+::selection{
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-selection{
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+::-webkit-selection{
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+.o-fit {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

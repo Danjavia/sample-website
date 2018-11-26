@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Bodoni';
+  src: url('../fonts/bodoni.eot');
+  src: url('../fonts/bodoni.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bodoni.woff') format('woff'),
+       url('../fonts/bodoni.ttf') format('truetype'),
+       url('../fonts/bodoni.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bodoni Black';
+  src: url('../fonts/bodoni-black.eot');
+  src: url('../fonts/bodoni-black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bodoni-black.woff') format('woff'),
+       url('../fonts/bodoni-black.ttf') format('truetype'),
+       url('../fonts/bodoni-black.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bodoni Italic';
+  src: url('../fonts/bodoni-italic.eot');
+  src: url('../fonts/bodoni-italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bodoni-italic.woff') format('woff'),
+       url('../fonts/bodoni-italic.ttf') format('truetype'),
+       url('../fonts/bodoni-italic.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bodoni Book';
+  src: url('../fonts/bodoni-book.eot');
+  src: url('../fonts/bodoni-book.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/bodoni-book.woff') format('woff'),
+       url('../fonts/bodoni-book.ttf') format('truetype'),
+       url('../fonts/bodoni-book.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham bold';
+  src: url('../fonts/gotham-bold.eot');
+  src: url('../fonts/gotham-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gotham-bold.woff') format('woff'),
+       url('../fonts/gotham-bold.ttf') format('truetype'),
+       url('../fonts/gotham-bold.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham book';
+  src: url('../fonts/gotham-book.eot');
+  src: url('../fonts/gotham-book.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gotham-book.woff') format('woff'),
+       url('../fonts/gotham-book.ttf') format('truetype'),
+       url('../fonts/gotham-book.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham medium';
+  src: url('../fonts/gotham-medium.eot');
+  src: url('../fonts/gotham-medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/gotham-medium.woff') format('woff'),
+       url('../fonts/gotham-medium.ttf') format('truetype'),
+       url('../fonts/gotham-medium.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Bodoni', sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Bodoni', sans-serif;
+}

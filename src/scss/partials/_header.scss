@@ -1,0 +1,41 @@
+.header {
+
+  .slider {
+    @include position(absolute, 0 0 0 0);
+    top: 0;
+    z-index: 0;
+  }
+
+  .wrapper {
+    position: relative;
+    width: 1080px;
+    z-index: 1;
+
+    .logo-bg {
+      display: flex;
+      align-items: center;
+      position: relative;
+      background: white;
+      height: 100px;
+      padding: 0 50px;
+      margin-top: 100px;
+      font-family: 'Gotham medium', sans-serif;
+    }
+
+    .logo {
+      @include position(absolute, -50% 0 0 50%);
+      transform: translateX(-50%);
+      img {
+
+      }
+    }
+
+    &.t-420 {
+      margin-top: 420px;
+      text-align: center;
+      background: black;
+      padding: 40px;
+      color: white;
+    }
+  }
+}
