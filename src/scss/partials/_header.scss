@@ -6,10 +6,18 @@
     z-index: 0;
   }
 
+  .carousel .item {
+    height: 100vh;
+  }
+
+  .item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+  }
+
   .wrapper {
-    position: relative;
-    width: 1080px;
-    z-index: 1;
 
     .logo-bg {
       display: flex;
@@ -36,6 +44,37 @@
       background: black;
       padding: 40px;
       color: white;
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 560px;
+        height: 3px;
+        background: #fff;
+        transform: translateX(-50%);
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 100vw;
+        height: 170px;
+        background: #000;
+        transform: translateX(-50%);
+        z-index: -1;
+      }
+
+      .description {
+        margin-top: 30px;
+        width: 780px;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px;
+      }
     }
   }
 }

@@ -78,9 +78,21 @@
 h1 {
   font-size: 40px;
   font-family: 'Bodoni', sans-serif;
+  font-weight: 100;
+  line-height: 0.5;
+}
+
+h2 {
+  font-family: 'Gotham bold', sans-serif;
+  font-size: 36px;
 }
 
 h3 {
   font-size: 30px;
   font-family: 'Bodoni', sans-serif;
+  line-height: 0.5;
+}
+
+i {
+  font-family: 'Bodoni Italic', sans-serif;
 }

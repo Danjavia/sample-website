@@ -1,3 +1,24 @@
 .main {
+  background: white;
 
+  .stay {
+    background: #f1f2f2;
+    padding: 70px;
+
+    .description {
+      margin-top: 30px;
+      font-family: 'Arial', sans-serif;
+      font-size: 14px;
+    }
+
+    h2 {
+      color: #979fa4;
+    }
+
+    &__image {
+      img {
+        box-shadow: 0 0 5px #adabab;
+      }
+    }
+  }
 }
